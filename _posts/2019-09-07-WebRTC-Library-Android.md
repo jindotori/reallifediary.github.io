@@ -9,11 +9,11 @@ https://webrtc.org/native-code/android/
 소스 주소
 https://chromium.googlesource.com/external/webrtc.git
 ### 준비하기
-나의경우, 2012년 형 맥프로에서 빌드환경을 구축하였다.
+나의경우, 2018년 형 맥프로에서 빌드환경을 구축하였다.
 VirtualBox
 https://www.virtualbox.org/wiki/Downloads
-ubuntu 16
-ubuntu-16.04.1-desktop-amd64.iso
+ubuntu 18
+ubuntu-18.04.1-desktop-amd64.iso
 https://www.ubuntu.com/desktop
 ### VirtualBox에 ubuntu 설치
 VirtualBox에 우분투를 설치한다.
