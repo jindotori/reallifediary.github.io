@@ -4,7 +4,7 @@ email: jseun112@naver.com # email for form submission, you also have to change i
 description: > # this means to ignore newlines until "baseurl:"
   This is dotori's blog
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "reallifediary.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://reallifediary.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
 github_username:  jindotori # replace with your_github_username or comment to remove link from footer
 instagram_username: reallife2da # replace with your_instagram_username or comment to remove link from footer
