@@ -19,7 +19,7 @@ social:
     - https://keybase.io/benbalter
 
 disqus:
-  shortname: janczizikow # to enable comments replace with your_disqus_shortname
+  shortname: reallifediary-com # to enable comments replace with your_disqus_shortname
 
 # Build settings
 markdown: kramdown
