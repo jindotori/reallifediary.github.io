@@ -1,6 +1,5 @@
 ---
 layout: post
-comments: true
 ---
 # libjingle_peerconnection_so 추출하기(Android)
 
