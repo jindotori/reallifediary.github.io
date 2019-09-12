@@ -1,6 +1,7 @@
 ---
 title: "Posts"
 layout: page
+comments: true
 permalink: /posts/
 ---
 
