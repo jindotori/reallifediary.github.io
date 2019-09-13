@@ -4,6 +4,6 @@ permalink: /about/
 layout: page 
 ---
 
-## reallifediary 블로그
+## Reallifediary 블로그
 
 This is about my diary.
