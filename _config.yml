@@ -45,6 +45,7 @@ navigation:
  - {name: 'Home', link: '/'}
  - {name: 'About', link: '/about'}
  - {name: 'Posts', link: '/posts'}
+ - {name: "Contact", link: '/contact'}
 
 compress_html:
   clippings: all
