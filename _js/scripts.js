@@ -230,6 +230,7 @@ function addErrorData( element, error ) {
 }
 
 // AJAX Form submit
+/*
 $( "#contactForm" ).submit( function( e ) {
 
     e.preventDefault();
@@ -265,4 +266,4 @@ $( "#contactForm" ).submit( function( e ) {
             $( ".modal__body" ).append( "<h1>Aww snap!</h1><p>Something went wrong, please try again. Error message:</p>" + err );
         }
     } );
-} );
+} );*/
