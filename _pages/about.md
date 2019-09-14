@@ -1,5 +1,5 @@
 ---
-title: "About my diary"
+title: "About"
 permalink: /about/
 layout: page 
 ---
