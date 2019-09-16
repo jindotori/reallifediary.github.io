@@ -1,0 +1,7 @@
+# folders
+node_modules
+
+
+
+_img/posts/*.jpg
+_img/posts/*.png
