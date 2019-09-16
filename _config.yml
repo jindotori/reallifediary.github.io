@@ -43,9 +43,9 @@ permalink: /:title/
 
 navigation:
  - {name: 'Home', link: '/'}
- - {name: 'About', link: '/about'}
  - {name: 'Posts', link: '/posts'}
  - {name: "Contact", link: '/contact'}
+ - {name: 'About', link: '/about'}
 
 compress_html:
   clippings: all
