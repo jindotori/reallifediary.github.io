@@ -2,6 +2,7 @@
 title: 소프트웨어 버전 관리
 layout: post
 summary: 소프트웨어 버전 효과적으로 관리하기
+featured-img: software_versioning
 ---
 
 소프트웨어 버전 작성
