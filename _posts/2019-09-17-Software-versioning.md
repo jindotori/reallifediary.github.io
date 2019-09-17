@@ -17,3 +17,4 @@ revision: 버그 수정 등 자잘한 변경
 
 ### External Links
 - [Apache Maven Project Release Note](http://maven.apache.org/release-notes-all.html)
+- <https://zeddios.tistory.com/365>
