@@ -11,6 +11,5 @@ summary: 소프트웨어 버전 효과적으로 관리하기
 #### X(major).Y(minor).Z(revision)
 
 
-
 ### External Links
 - [Apache Maven Project Release Note](http://maven.apache.org/release-notes-all.html)
