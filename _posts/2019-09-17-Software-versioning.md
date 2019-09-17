@@ -10,6 +10,9 @@ summary: 소프트웨어 버전 효과적으로 관리하기
 
 #### X(major).Y(minor).Z(revision)
 
+major: 완전 리모델링
+minor: 기능 추가, 변경
+revision: 버그 수정 등 자잘한 변경
 
 ### External Links
 - [Apache Maven Project Release Note](http://maven.apache.org/release-notes-all.html)
