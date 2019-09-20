@@ -137,34 +137,42 @@ gulp.task( "img", () => {
     .pipe( responsive( {
         "*": [ // For all the images in the posts folder
           {
+	    format: "jpg",
             width: 230,
             rename: { suffix: "_placehold" }
           },
           { // thubmnail
+	    format: "jpg",
             width: 535,
             rename: { suffix: "_thumb" }
           },
           { // thumbnail @2x
+	    format: "jpg",
             width: 535 * 2,
             rename: { suffix: "_thumb@2x" }
           },
           {
+	    format: "jpg",
             width: 575,
             rename: { suffix: "_xs" }
           },
           {
+	    format: "jpg",
             width: 767,
             rename: { suffix: "_sm" }
           },
           {
+	    format: "jpg",
             width: 991,
             rename: { suffix: "_md" }
           },
           {
+	    format: "jpg",
             width: 1999,
             rename: { suffix: "_lg" }
           },
           { // max-width hero
+	    format: "jpg",
             width: 1920
           }
         ]
