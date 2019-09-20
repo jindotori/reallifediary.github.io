@@ -2,6 +2,7 @@
 title: Android Multi Project
 layout: post
 summary: 하나의 프로젝트에 Android App 과 aar 프로젝트 링크 연동시키기
+featured-img: androidStudio
 ---
 
 Android App Project 에서 aar 파일 로컬로 추가 시키지 않고 링크 연결해서 빌드하는 방법이다.
