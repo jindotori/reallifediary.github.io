@@ -93,4 +93,4 @@ so 파일을 추축하는 방법은 아래 두가지가 있다.
 
 ## 참고
 아래 github 페이지에 CPU architecture 별로 만들어 놓은 library 가 있으니 참고하시기 바랍니다.
-https://github.com/jindotori/libjingle_peerconnection_so-android
+<https://github.com/jindotori/libjingle_peerconnection_so-android>
