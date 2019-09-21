@@ -14,6 +14,7 @@ aar 프로젝트 코드 수정 할 때마다 App 프로젝트로 추가시키는
 /AARproject/build.gradle
 /AppProject/build.gradle
 ```
+실제 수정해야하는 파일은 아래 2 파일이다.
 
 ### /settings.gradle
 ```
