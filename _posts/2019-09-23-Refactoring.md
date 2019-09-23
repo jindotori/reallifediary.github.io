@@ -4,7 +4,6 @@ layout: post
 summary: Software Refactoring
 featured-img: refactoring
 ---
-
 ## 리팩토링 목적
 
 - 버그를 발견하기 쉽게 만든다.
