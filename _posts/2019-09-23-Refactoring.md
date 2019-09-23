@@ -39,3 +39,28 @@ featured-img: refactoring
   - 각 단계마다 제대로 되고 있는 지 확인.
 - 오래된 걸 새로운 걸로 바꿈.
   - 동작 상태를 유지하면서 새로운 코드를 추가해서 오래된 것이 모두 새로워지면 오래된 것을 제거함.
+
+
+## 매직 넘버를 기호 상수로 치환
+
+#### 매직 넘버를 써서 안될 이유
+- 매직 넘버의 이유를 알기 어렵다.
+- 매직 넘버는 수정하기 어려움.
+
+#### 리팩토링 실행
+1. 기호 상수 선언
+- public static final 클래스 필드 사용하기(클래스 안에서만 사용할 경우 private 선)
+- enum 사용하기
+2. 기호 상수에 의존하는 다른 매직 넘버를 기호 상수 표현식으로 변환.
+
+잘못한 예제)
+~~~
+public static final int MAX_INPUT_LENGTH = 100;
+public static final int WORK_AREA_LENGTH = 200;
+~~~
+
+잘한 예제)
+~~~
+public static final int MAX_INPUT_LENGTH = 100;
+public static final int WORK_AREA_LENGTH = MAX_INPUT_LENGTH * 2;
+~~~
