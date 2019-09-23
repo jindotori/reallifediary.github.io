@@ -1,7 +1,7 @@
 ---
-title: Android Multi Project
+title: Software Refactoring
 layout: post
-summary: 하나의 프로젝트에 Android App 과 aar 프로젝트 링크 연동시키기
+summary: Software Refactoring
 featured-img: refactoring
 ---
 
