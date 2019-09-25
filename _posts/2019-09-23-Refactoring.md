@@ -63,3 +63,16 @@ public static final int WORK_AREA_LENGTH = 200;
 public static final int MAX_INPUT_LENGTH = 100;
 public static final int WORK_AREA_LENGTH = MAX_INPUT_LENGTH * 2;
 ~~~
+
+## 제어 플래그 삭제
+#### 플래그
+- 상태를 기록하고 처리 흐름을 제어하기 위한 boolean 타입 변수
+#### 제어 플래그
+- 처리 흐름을 제어할 때 사용하는 플래그
+
+#### 제어 플래그 삭제하는 이유
+- 프로그램을 읽기 편하게 함.
+-> 제어 플래그 대신 break, continue, return 등을 써서 처리 흐름을 제어함.
+
+#### break나 return을 쓰면 가독성이 좋아지는 이유
+- break나 return을 본 순간 이후에 오는 코드를 읽지 않아도 되는 경우가 많음.
