@@ -76,3 +76,5 @@ public static final int WORK_AREA_LENGTH = MAX_INPUT_LENGTH * 2;
 
 #### break나 return을 쓰면 가독성이 좋아지는 이유
 - break나 return을 본 순간 이후에 오는 코드를 읽지 않아도 되는 경우가 많음.
+
+어셔선 도입
