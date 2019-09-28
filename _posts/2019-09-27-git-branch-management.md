@@ -17,6 +17,7 @@ featured-img: github
 ### 메인 브랜치
 - master
 - develop
+
 ![mainBranch](https://nvie.com/img/main-branches@2x.png)
 
 ### 보조 브랜치
@@ -29,6 +30,8 @@ branch off from develop
 merge back into develop
 naming: anything except master, develop, release-* or hotfix-*
 
+![feature](https://nvie.com/img/fb@2x.png)
+
 ##### Release 브랜치
 branch off from develop
 merge back into master and develop
@@ -38,3 +41,5 @@ naming: release-*
 branch off from master
 merge back into develop and master
 naming: hotfix-*
+
+![hotfix](https://nvie.com/img/hotfix-branches@2x.png)
