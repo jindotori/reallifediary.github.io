@@ -48,8 +48,9 @@ layout: compress
     <div class="container">
       <article class="post-content" itemprop="articleBody">
 
+    {% include ad.html %}
         {{ content }}
-
+    {% include ad.html %}
       </article>
       <div class="post-content controls__inner">
         <div class="controls__item prev">
@@ -82,8 +83,6 @@ layout: compress
         </div>
       </div>
     </div>
-
-    {% include ad.html %}
 
     {% if site.disqus.shortname %}
 
