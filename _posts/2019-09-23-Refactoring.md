@@ -99,7 +99,7 @@ value > 0 이 아니라면 java.lang.AssertionError가 발생한다.
 - 적혀 있던 주석을 무의미하므로 주석 삭제
 - 컴파일해서 테스트
 
-[어서션 도입 전]ß
+[어서션 도입 전]
 
 ~~~
 void method(int value) {
