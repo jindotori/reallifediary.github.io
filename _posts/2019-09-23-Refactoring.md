@@ -100,6 +100,7 @@ value > 0 이 아니라면 java.lang.AssertionError가 발생한다.
 - 컴파일해서 테스트
 
 <어서션 도입 전>
+
 ~~~
 void method(int value) {
   // 여기서 value가 참이어야 함.
@@ -108,6 +109,7 @@ void method(int value) {
 ~~~
 
 <어서션 도입 후>
+
 ~~~
 void method(int value) {
   assert value > 0;
