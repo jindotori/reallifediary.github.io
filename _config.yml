@@ -22,6 +22,8 @@ social:
 disqus:
   shortname: reallifediary-com # to enable comments replace with your_disqus_shortname
 
+service_worker: true
+
 # Build settings
 markdown: kramdown
 highlighter: rouge # or pygments or null
