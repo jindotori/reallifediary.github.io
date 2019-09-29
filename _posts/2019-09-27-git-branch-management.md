@@ -3,7 +3,7 @@ title: Git branch 관리
 layout: post
 summary: Git branch 효과적으로 관리하기
 featured-img: github
-categories: Software 
+categories: Git
 ---
 # 개요
 
