@@ -3,6 +3,7 @@ title: WebRTC Android library 빌드
 layout: post
 summary: Android OS에서 WebRTC 커스터마이징 시 필요한 빌드 방법.
 featured-img: webrtc
+categories: Software
 ---
 # libjingle_peerconnection_so 추출하기(Android)
 

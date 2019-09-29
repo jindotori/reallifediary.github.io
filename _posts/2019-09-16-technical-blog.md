@@ -3,6 +3,7 @@ title: IT업계 기술 블로그 리스트
 layout: post
 summary: 국내/외 IT업계 기술 블로그 리스트
 featured-img: emile-perron-190221
+categories: Software
 ---
 
 # [한국]

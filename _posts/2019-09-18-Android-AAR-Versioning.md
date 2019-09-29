@@ -3,6 +3,7 @@ title: Android AAR versioning
 layout: post
 summary: Android AAR Library 버전 정보 입력
 featured-img: android_aar
+categories: Software
 ---
 ### build.gradle 작성
 ~~~java

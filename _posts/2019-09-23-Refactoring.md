@@ -3,6 +3,7 @@ title: Software Refactoring
 layout: post
 summary: Software Refactoring
 featured-img: refactoring
+categories: Software
 ---
 ## 리팩토링 목적
 
