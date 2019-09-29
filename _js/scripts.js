@@ -28,13 +28,11 @@ $( window ).resize( function() {
 
 function toggleMobileNav() {
     $( ".header__toggle" ).click( function() {
-      if ( !$( ".header__links" ).is( ".velocity-animating" ) ) {
         if ( $( ".header__links" ).hasClass( "js--open" ) ) {
             hideMobileNav();
         } else {
             openMobileNav();
         }
-      }
     } );
 
     $( "body" ).on( "click", function( e ) {
