@@ -40,7 +40,7 @@ categories: Software
 - 오래된 걸 새로운 걸로 바꿈.
   - 동작 상태를 유지하면서 새로운 코드를 추가해서 오래된 것이 모두 새로워지면 오래된 것을 제거함.
 
-
+---
 ## 매직 넘버를 기호 상수로 치환
 
 #### 매직 넘버를 써서 안될 이유
@@ -64,7 +64,7 @@ public static final int WORK_AREA_LENGTH = 200;
 public static final int MAX_INPUT_LENGTH = 100;
 public static final int WORK_AREA_LENGTH = MAX_INPUT_LENGTH * 2;
 ~~~
-
+---
 ## 제어 플래그 삭제
 #### 플래그
 - 상태를 기록하고 처리 흐름을 제어하기 위한 boolean 타입 변수
@@ -77,7 +77,7 @@ public static final int WORK_AREA_LENGTH = MAX_INPUT_LENGTH * 2;
 
 #### break나 return을 쓰면 가독성이 좋아지는 이유
 - break나 return을 본 순간 이후에 오는 코드를 읽지 않아도 되는 경우가 많음.
-
+---
 ## 어셔선 도입
 프로그래머의 의도를 확실히 밝히면서도 실행 시 조건이 반드시 성립함을 보장함.
 ~~~
