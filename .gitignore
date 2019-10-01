@@ -1,5 +1,4 @@
-_img/posts/*.jpg
-_img/posts/*.png
+_img/posts/*.*
 
 # Folders
 node_modules
