@@ -9,12 +9,15 @@ categories: WebRTC
 
 WebRTC 를 안드로이드로 빌드 하는 방법에 대해서 알아 본다. 아래 과정을 순서대로 따라하면 된다.
 
+---
 ### WebRTC android 참고 문서 및 소스
 https://webrtc.org/
 webrtc 안드로이드 문서
 https://webrtc.org/native-code/android/
 소스 주소
 https://chromium.googlesource.com/external/webrtc.git
+
+---
 ### 준비하기
 나의경우, 2018년 형 맥프로에서 빌드환경을 구축하였다.
 VirtualBox
@@ -22,32 +25,50 @@ https://www.virtualbox.org/wiki/Downloads
 ubuntu 18
 ubuntu-18.04.1-desktop-amd64.iso
 https://www.ubuntu.com/desktop
+
+---
 ### VirtualBox에 ubuntu 설치
 VirtualBox에 우분투를 설치한다.
 설치시 디스크 용량은 최소 60기가 정도로 잡는다.
+
+---
 ### VirtualBox의 ubuntu 설정
 시스템 -> 프로세서 -> CPU 2개
 디스플레이 -> 화면 -> 비디오 메모리 128MB
 기타 필요한 설정을 수행한다.
 공유폴더를 설정한다. 공유폴더설정
+
+---
 ### git 설치
 우분투를 실행하고 git 을 설치한다.
 apt-get install git
+
+---
 ### 폴더생성
 mkdir webrtc
 cd webrtc
+
+---
 ### Depot Tools clone
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+
+---
 ### Depot Tools 임시 Path 등록
 export PATH=`pwd`/depot_tools:"$PATH"
+
+---
 ### 타겟 지정
 export GYP_DEFINES="OS=android"
+
+---
 ### 소스 다운로드
 fetch --nohooks webrtc_android
 
 gclient sync
 네트워크에 따라 몇 시간 걸림
 중간에 라이센스 관련하여 y/n 을 물어본다.
+
+---
 ### 필요라이브러리 설치
 컴파일시 필요라이브러리 설치한다.
 이는 최초 gclient sync 를 시행하고 그 다음에 수행한다.
@@ -55,6 +76,8 @@ gclient sync
 ./build/install-build-deps.sh  --no-chromeos-fonts
 
 ./build/install-build-deps-android.sh
+
+---
 ### 소스 빌드
 * armeabi-v7a (arm 계열의 32비트)
 

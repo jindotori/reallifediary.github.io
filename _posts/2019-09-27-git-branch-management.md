@@ -15,19 +15,21 @@ categories: Git
 
 ![totalBranch](https://gmlwjd9405.github.io/images/types-of-git-branch/total-branch.png)
 
-
+---
 ## 메인 브랜치
 - master
 - develop
 
 ![mainBranch](https://nvie.com/img/main-branches@2x.png)
 
+---
 ## 보조 브랜치
 - Feature
 - Release
 - Hotfix
 
-## Feature 브랜치
+---
+#### Feature 브랜치
 - branch off from develop
 - merge back into develop
 - naming: anything except master, develop, release-* or hotfix-*
@@ -53,6 +55,7 @@ $ git push origin develop
 
 ![feature](https://nvie.com/img/fb@2x.png)
 
+---
 #### Release 브랜치
 - branch off from develop
 - merge back into master and develop
@@ -79,6 +82,7 @@ Merge made by recursive.
 $ git tag -a 1.2
 ~~~
 
+---
 #### Hotfix 브랜치
 - branch off from master
 - merge back into develop and master
