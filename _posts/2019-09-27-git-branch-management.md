@@ -74,12 +74,18 @@ $ git commit -a -m "Bumped version number to 1.2"
 
 *Release 브랜치 작업 완료 후*
 ~~~
+//master 브랜치에 Merge
 $ git checkout master
 Switched to branch 'master'
 $ git merge --no-ff release-1.2
 Merge made by recursive.
 (Summary of changes)
 $ git tag -a 1.2
+
+//develop 브랜치에 Merge
+$ git checkout develop
+$ git merge --no-ff release-1.2
+$ git branch -d release-1.2
 ~~~
 
 ---
