@@ -22,6 +22,8 @@ social:
 disqus:
   shortname: reallifediary-com # to enable comments replace with your_disqus_shortname
 
+google_tag_manager: GTM-K8H6SNZ
+
 service_worker: true
 
 # Build settings
