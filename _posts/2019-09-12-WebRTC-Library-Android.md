@@ -8,6 +8,7 @@ categories: WebRTC
 # libjingle_peerconnection_so 추출하기(Android)
 
 WebRTC 를 안드로이드로 빌드 하는 방법에 대해서 알아 본다. 아래 과정을 순서대로 따라하면 된다.
+나의 경우, 맥북에 Virtual Box상 우분투를 설치하여 우분투에서 소스 다운 및 빌드를 진행하였다.
 
 ---
 ### WebRTC android 참고 문서 및 소스
@@ -18,47 +19,20 @@ https://webrtc.org/native-code/android/
 https://chromium.googlesource.com/external/webrtc.git
 
 ---
-### 준비하기
-나의경우, 2018년 형 맥프로에서 빌드환경을 구축하였다.
-VirtualBox
-https://www.virtualbox.org/wiki/Downloads
-ubuntu 18
-ubuntu-18.04.1-desktop-amd64.iso
-https://www.ubuntu.com/desktop
-
----
-### VirtualBox에 ubuntu 설치
-VirtualBox에 우분투를 설치한다.
-설치시 디스크 용량은 최소 60기가 정도로 잡는다.
-
----
-### VirtualBox의 ubuntu 설정
-시스템 -> 프로세서 -> CPU 2개
-디스플레이 -> 화면 -> 비디오 메모리 128MB
-기타 필요한 설정을 수행한다.
-공유폴더를 설정한다. 공유폴더설정
-
----
-### git 설치
-우분투를 실행하고 git 을 설치한다.
-apt-get install git
-
----
-### 폴더생성
+### 터미널에서 폴더생성
 mkdir webrtc
 cd webrtc
 
 ---
+## Prerequisite software
+
+
 ### Depot Tools clone
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 
----
+
 ### Depot Tools 임시 Path 등록
 export PATH=`pwd`/depot_tools:"$PATH"
-
----
-### 타겟 지정
-export GYP_DEFINES="OS=android"
 
 ---
 ### 소스 다운로드
@@ -104,7 +78,8 @@ gn gen out_x64/Default --args='target_os="android" target_cpu="x64" is_debug=fal
 ninja -C out_x64/Default AppRTCMobile
 
 안드로이드는 Arm V7 with Neon, Arm 64 두개만 하면 된다.
-각각 지정한 폴더 밑으로 빌드본이 생긴다. out/Default, out_arm64/Default
+각각 지정한 폴더 밑으로 빌드본이 생긴다.
+out/Default, out_arm64/Default
 
 ### so 파일 추출하기
 so 파일을 추축하는 방법은 아래 두가지가 있다.
