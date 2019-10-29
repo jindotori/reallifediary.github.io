@@ -6,4 +6,6 @@ categories: ffmpeg
 ---
 
 ## ffmpeg 빌드하기
-https://yesimroy.gitbooks.io/android-note/content/ffmpeg_build_process.html
+<https://github.com/hrydgard/ppsspp-ffmpeg>
+
+<https://trac.ffmpeg.org/ticket/2888>
